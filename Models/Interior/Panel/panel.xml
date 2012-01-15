@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PropertyList>
+
+   <path>panel.ac</path>
+
+  <animation>
+    <!-- Objets opaques -->
+    <object-name>panel</object-name>
+
+    <!-- Objets transparents -->
+  </animation>
+
+  <!-- ASI -->
+  <model>
+    <path>Aircraft/Brabazon/Models/Interior/Panel/Instruments/asi/asi.xml</path>
+    <offsets>
+      <x-m>  0.102 </x-m>
+      <y-m> -0.510 </y-m>
+      <z-m>  0.270 </z-m>
+    </offsets>
+  </model>
+
+  <model>
+    <path>Aircraft/Brabazon/Models/Interior/Panel/Instruments/asi/asi.xml</path>
+    <offsets>
+      <x-m> 0.102 </x-m>
+      <y-m> 0.270 </y-m>
+      <z-m> 0.270 </z-m>
+    </offsets>
+  </model>
+
+  <!-- AI -->
+  <model>
+    <path>Aircraft/Brabazon/Models/Interior/Panel/Instruments/ai/ai.xml</path>
+    <offsets>
+      <x-m>  0.105 </x-m>
+      <y-m> -0.390 </y-m>
+      <z-m>  0.270 </z-m>
+    </offsets>
+  </model>
+
+  <model>
+    <path>Aircraft/Brabazon/Models/Interior/Panel/Instruments/ai/ai.xml</path>
+    <offsets>
+      <x-m> 0.105 </x-m>
+      <y-m> 0.390 </y-m>
+      <z-m> 0.270 </z-m>
+    </offsets>
+  </model>
+
+  <!-- TURN -->
+  <model>
+    <path>Aircraft/Brabazon/Models/Interior/Panel/Instruments/turn/turn.xml</path>
+    <offsets>
+      <x-m>  0.107 </x-m>
+      <y-m> -0.250 </y-m>
+      <z-m>  0.270 </z-m>
+    </offsets>
+  </model>
+
+  <model>
+    <path>Aircraft/Brabazon/Models/Interior/Panel/Instruments/turn/turn.xml</path>
+    <offsets>
+      <x-m> 0.107 </x-m>
+      <y-m> 0.530 </y-m>
+      <z-m> 0.270 </z-m>
+    </offsets>
+  </model>
+
+  <!-- ALT -->
+  <model>
+    <path>Aircraft/Brabazon/Models/Interior/Panel/Instruments/alt/alt.xml</path>
+    <offsets>
+      <x-m>  0.102 </x-m>
+      <y-m> -0.510 </y-m>
+      <z-m>  0.149 </z-m>
+    </offsets>
+  </model>
+
+  <model>
+    <path>Aircraft/Brabazon/Models/Interior/Panel/Instruments/alt/alt.xml</path>
+    <offsets>
+      <x-m> 0.102 </x-m>
+      <y-m> 0.270 </y-m>
+      <z-m> 0.149 </z-m>
+    </offsets>
+  </model>
+
+  <!-- RCC -->
+  <model>
+    <path>Aircraft/Brabazon/Models/Interior/Panel/Instruments/rcc/rcc.xml</path>
+    <offsets>
+      <x-m>  0.102 </x-m>
+      <y-m> -0.383 </y-m>
+      <z-m>  0.150 </z-m>
+    </offsets>
+  </model>
+
+  <model>
+    <path>Aircraft/Brabazon/Models/Interior/Panel/Instruments/rcc/rcc.xml</path>
+    <offsets>
+      <x-m> 0.102 </x-m>
+      <y-m> 0.397 </y-m>
+      <z-m> 0.150 </z-m>
+    </offsets>
+  </model>
+
+  <!-- VSI -->
+  <model>
+    <path>Aircraft/Brabazon/Models/Interior/Panel/Instruments/vsi/vsi.xml</path>
+    <offsets>
+      <x-m>  0.102 </x-m>
+      <y-m> -0.250 </y-m>
+      <z-m>  0.150 </z-m>
+    </offsets>
+  </model>
+
+  <model>
+    <path>Aircraft/Brabazon/Models/Interior/Panel/Instruments/vsi/vsi.xml</path>
+    <offsets>
+      <x-m> 0.102 </x-m>
+      <y-m> 0.530 </y-m>
+      <z-m> 0.150 </z-m>
+    </offsets>
+  </model>
+
+  <!-- MAINFOLD -->
+  <model>
+    <path>Aircraft/Brabazon/Models/Interior/Panel/Instruments/manifold/manifold0.xml</path>
+    <offsets>
+      <x-m>  0.102 </x-m>
+      <y-m> -0.135 </y-m>
+      <z-m>  0.330 </z-m>
+    </offsets>
+  </model>
+
+  <model>
+    <path>Aircraft/Brabazon/Models/Interior/Panel/Instruments/manifold/manifold1.xml</path>
+    <offsets>
+      <x-m>  0.102 </x-m>
+      <y-m> -0.045 </y-m>
+      <z-m>  0.330 </z-m>
+    </offsets>
+  </model>
+
+  <model>
+    <path>Aircraft/Brabazon/Models/Interior/Panel/Instruments/manifold/manifold2.xml</path>
+    <offsets>
+      <x-m> 0.102 </x-m>
+      <y-m> 0.045 </y-m>
+      <z-m> 0.330 </z-m>
+    </offsets>
+  </model>
+
+  <model>
+    <path>Aircraft/Brabazon/Models/Interior/Panel/Instruments/manifold/manifold3.xml</path>
+    <offsets>
+      <x-m> 0.102 </x-m>
+      <y-m> 0.135 </y-m>
+      <z-m> 0.330 </z-m>
+    </offsets>
+  </model>
+
+  <!-- RPM -->
+  <model>
+    <path>Aircraft/Brabazon/Models/Interior/Panel/Instruments/rpm/rpm0.xml</path>
+    <offsets>
+      <x-m>  0.102 </x-m>
+      <y-m> -0.135 </y-m>
+      <z-m>  0.240 </z-m>
+    </offsets>
+  </model>
+
+  <model>
+    <path>Aircraft/Brabazon/Models/Interior/Panel/Instruments/rpm/rpm1.xml</path>
+    <offsets>
+      <x-m>  0.102 </x-m>
+      <y-m> -0.045 </y-m>
+      <z-m>  0.240 </z-m>
+    </offsets>
+  </model>
+
+  <model>
+    <path>Aircraft/Brabazon/Models/Interior/Panel/Instruments/rpm/rpm2.xml</path>
+    <offsets>
+      <x-m> 0.102 </x-m>
+      <y-m> 0.045 </y-m>
+      <z-m> 0.240 </z-m>
+    </offsets>
+  </model>
+
+  <model>
+    <path>Aircraft/Brabazon/Models/Interior/Panel/Instruments/rpm/rpm3.xml</path>
+    <offsets>
+      <x-m> 0.102 </x-m>
+      <y-m> 0.135 </y-m>
+      <z-m> 0.240 </z-m>
+    </offsets>
+  </model>
+
+</PropertyList>
+
