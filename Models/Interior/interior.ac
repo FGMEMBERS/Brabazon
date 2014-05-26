@@ -1,6 +1,6 @@
 AC3Db
 MATERIAL "DefaultWhite" rgb 1 1 1  amb 1 1 1  emis 0 0 0  spec 0.5 0.5 0.5  shi 64  trans 0
-MATERIAL "transparent" rgb 1 1 1 amb 1 1 1 emis 0 0 0 spec 1 1 1 shi 64 trans 0.85
+MATERIAL "transparent" rgb 1 1 1 amb 0.5 0.5 0.5 emis 0 0 0 spec 1 1 1 shi 64 trans 0.85
 OBJECT world
 kids 4
 OBJECT poly
@@ -8,7 +8,7 @@ name "interieur"
 loc 0 0 -0
 data 9
 interieur
-texture "colors.png"
+texture "interior.png"
 texrep 1.000000 1.000000
 crease 30.000001
 numvert 1362
@@ -9551,7 +9551,7 @@ name "inttour"
 loc 0 0 -0
 data 7
 inttour
-texture "colors.png"
+texture "interior.png"
 texrep 1.000000 1.000000
 crease 30.000001
 numvert 1812
@@ -23811,7 +23811,7 @@ name "planchet"
 loc 0 0 -0
 data 8
 planchet
-texture "colors.png"
+texture "interior.png"
 texrep 1.000000 1.000000
 crease 30.000001
 numvert 102

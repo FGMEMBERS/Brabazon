@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 
-<!-- <PropertyList include="brabazon-jsbsim-cnf.xml"> -->
-<PropertyList include="brabazon-yasim-cnf.xml">
+<PropertyList include="brabazon-base.xml">
 
   <sim>
 
     <description>Bristol 167 Brabazon (YASim)</description>
     <author>BARANGER Emmanuel</author>
-
+    <flight-model>yasim</flight-model>
+    <aero>brabazon-yasim</aero>
+    
     <rating>
-      <FDM type="int">     1 </FDM>
+      <FDM type="int">     2 </FDM>
       <systems type="int"> 1 </systems>
       <cockpit type="int"> 0 </cockpit>
-      <model type="int">   3 </model>
+      <model type="int">   4 </model>
     </rating>
 
   </sim>
 
 </PropertyList>
-

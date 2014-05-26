@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 
-<!-- Bristol type 167 Brabazon : BARANGER Emmanuel (2010) 
+<!-- Bristol type 167 Brabazon : BARANGER Emmanuel (2010)
+                        Update : BARANGER Emmanuel (2014)
 
      source          : http://en.wikipedia.org/wiki/Bristol_Brabazon
 
@@ -12,18 +13,17 @@
      Cruise speed    : 400 km/h  ( 220 kt    ) at 25000 ft
      Maximum speed   : 480 km/h  ( 260 kt    ) at 25000 ft
 -->
+<airplane mass="145100" version="YASIM_VERSION_CURRENT">
 
-<airplane mass="145100">
-
-  <approach speed="110" aoa="4" fuel="0.3">
-    <control-setting axis="/controls/engines/engine[0]/throttle" value="1"/>
-    <control-setting axis="/controls/engines/engine[1]/throttle" value="1"/>
-    <control-setting axis="/controls/engines/engine[2]/throttle" value="1"/>
-    <control-setting axis="/controls/engines/engine[3]/throttle" value="1"/>
-    <control-setting axis="/controls/engines/engine[4]/throttle" value="1"/>
-    <control-setting axis="/controls/engines/engine[5]/throttle" value="1"/>
-    <control-setting axis="/controls/engines/engine[6]/throttle" value="1"/>
-    <control-setting axis="/controls/engines/engine[7]/throttle" value="1"/>
+  <approach speed="110" aoa="5" fuel="0.2">
+    <control-setting axis="/controls/engines/engine[0]/throttle" value="0.3"/>
+    <control-setting axis="/controls/engines/engine[1]/throttle" value="0.3"/>
+    <control-setting axis="/controls/engines/engine[2]/throttle" value="0.3"/>
+    <control-setting axis="/controls/engines/engine[3]/throttle" value="0.3"/>
+    <control-setting axis="/controls/engines/engine[4]/throttle" value="0.3"/>
+    <control-setting axis="/controls/engines/engine[5]/throttle" value="0.3"/>
+    <control-setting axis="/controls/engines/engine[6]/throttle" value="0.3"/>
+    <control-setting axis="/controls/engines/engine[7]/throttle" value="0.3"/>
 
     <control-setting axis="/controls/engines/engine[0]/mixture" value="1"/>
     <control-setting axis="/controls/engines/engine[1]/mixture" value="1"/>
@@ -48,14 +48,14 @@
   </approach>
 
   <cruise speed="220" alt="1000" fuel="0.5">
-    <control-setting axis="/controls/engines/engine[0]/throttle" value="0.7"/>
-    <control-setting axis="/controls/engines/engine[1]/throttle" value="0.7"/>
-    <control-setting axis="/controls/engines/engine[2]/throttle" value="0.7"/>
-    <control-setting axis="/controls/engines/engine[3]/throttle" value="0.7"/>
-    <control-setting axis="/controls/engines/engine[4]/throttle" value="0.7"/>
-    <control-setting axis="/controls/engines/engine[5]/throttle" value="0.7"/>
-    <control-setting axis="/controls/engines/engine[6]/throttle" value="0.7"/>
-    <control-setting axis="/controls/engines/engine[7]/throttle" value="0.7"/>
+    <control-setting axis="/controls/engines/engine[0]/throttle" value="0.8"/>
+    <control-setting axis="/controls/engines/engine[1]/throttle" value="0.8"/>
+    <control-setting axis="/controls/engines/engine[2]/throttle" value="0.8"/>
+    <control-setting axis="/controls/engines/engine[3]/throttle" value="0.8"/>
+    <control-setting axis="/controls/engines/engine[4]/throttle" value="0.8"/>
+    <control-setting axis="/controls/engines/engine[5]/throttle" value="0.8"/>
+    <control-setting axis="/controls/engines/engine[6]/throttle" value="0.8"/>
+    <control-setting axis="/controls/engines/engine[7]/throttle" value="0.8"/>
 
     <control-setting axis="/controls/engines/engine[0]/mixture" value="0.3"/>
     <control-setting axis="/controls/engines/engine[1]/mixture" value="0.3"/>
@@ -82,20 +82,18 @@
   <cockpit x="22.002" y="0.492" z="-3.084"/>
 
   <!-- Fuselage -->
-  <fuselage ax=" 24.019" ay="  0.000" az="-4.047" bx=" 14.079" by="  0.000" bz="-3.569" width="5.040" taper="0.30" midpoint="1.0"/>
-  <fuselage ax=" 14.079" ay="  0.000" az="-3.569" bx=" -8.080" by="  0.000" bz="-3.569" width="5.040" taper="1.00" midpoint="1.0"/>
-  <fuselage ax=" -8.080" ay="  0.000" az="-3.569" bx="-27.011" by="  0.000" bz="-2.913" width="5.040" taper="0.10" midpoint="0.0"/>
+  <fuselage ax=" 24.019" ay="  0.000" az="-4.047" bx=" 14.079" by="  0.000" bz="-3.569" width="5.040" taper="0.30" midpoint="1" cx="1.5" cy="1.5"/>
+  <fuselage ax=" 14.079" ay="  0.000" az="-3.569" bx=" -8.080" by="  0.000" bz="-3.569" width="5.040" taper="1.00" midpoint="1" cx="1.5" cy="1.5"/>
+  <fuselage ax=" -8.080" ay="  0.000" az="-3.569" bx="-27.011" by="  0.000" bz="-2.913" width="5.040" taper="0.10" midpoint="0" cx="1.5" cy="1.5"/>
 
   <!-- Wing -->
   <mstab x="0.193" y="0" z="-4.594"
         chord="8.56" 
         length="15" 
         taper="0.96"  
-        sweep="1" 
-        incidence="1"
-        camber="0.0005">
-        <stall aoa="12" width="8" peak="3.5"/>
-        <flap0 start="0.192" end="1.02" lift="1.8" drag="1.6"/>
+        sweep="1">
+        <stall aoa="12" width="1" peak="1.5"/>
+        <flap0 start="0.192" end="1.02" lift="1.4" drag="2.5"/>
 
         <control-input axis="/controls/flight/flaps" control="FLAP0" invert="true"/>
 
@@ -109,19 +107,15 @@
         length="19.934" 
         taper="0.4"  
         sweep="7" 
-        incidence="1"
-        dihedral="0"
         camber="0.1">
-        <stall aoa="10" width="8" peak="3.5"/>
-        <flap1 start="0.26" end="0.925" lift="1.6" drag="1.2"/>
+        <stall aoa="12" width="1" peak="1.5"/>
+        <flap1 start="0.26" end="0.925" lift="1.15" drag="1.15"/>
 
         <control-input axis="/controls/flight/aileron" control="FLAP1" split="true"/>
         <control-input axis="/controls/flight/aileron-trim" control="FLAP1" split="true"/>
 
         <control-output control="FLAP1" side="left" prop="/surface-positions/left-aileron-pos-norm"/>
         <control-output control="FLAP1" side="right" prop="/surface-positions/right-aileron-pos-norm"/>
-
-        <control-speed control="FLAP1" transition-time="1.2"/>
   </wing>
 
   <!-- Elevator -->
@@ -130,15 +124,13 @@
          length="11.4"
          taper="0.45"
          sweep="3">
-         <stall aoa="8" width="6" peak="1.5"/>
-         <flap0 start="0.09" end="0.845" lift="2.1" drag="2.3"/>
+         <stall aoa="18" width="1" peak="1.5"/>
+         <flap0 start="0.09" end="0.845" lift="1.7" drag="1.4"/>
 
          <control-input axis="/controls/flight/elevator" control="FLAP0"/>
          <control-input axis="/controls/flight/elevator-trim" control="FLAP0"/>
 
          <control-output control="FLAP0" prop="/surface-positions/elevator-pos-norm"/>
-	 
-         <control-speed control="FLAP0" transition-time="1.2"/>
   </hstab>
 
   <!-- Ruder -->
@@ -147,15 +139,13 @@
          length="9" 
          taper="0.34"
          sweep="14">
-         <stall aoa="14" width="4" peak="1.5"/>
-         <flap0 start="0" end="0.95" lift="1.7" drag="1.5"/>
+         <stall aoa="18" width="1" peak="1.5"/>
+         <flap0 start="0" end="0.95" lift="1.67" drag="1.7"/>
 
          <control-input axis="/controls/flight/rudder" control="FLAP0" invert="true"/>
          <control-input axis="/controls/flight/rudder-trim" control="FLAP0" invert="true"/>
 
          <control-output control="FLAP0" prop="/surface-positions/rudder-pos-norm"/>
-	 
-         <control-speed control="FLAP0" transition-time="1.2"/>
   </vstab>
 
   <!-- Engines   source            : http://en.wikipedia.org/wiki/Bristol_Centaurus
@@ -484,8 +474,7 @@
   <tank x="2" y=" 12" z="-4.6" capacity="56552"/>
   <tank x="2" y="-12" z="-4.6" capacity="56552"/>
 
-  <!-- CG -->
+  <!-- Mass displacment -->
   <ballast x="20" y="0" z="-5" mass="15000"/>
         
 </airplane>
-

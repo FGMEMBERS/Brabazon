@@ -7,9 +7,8 @@
     <desc>Canopy</desc>
     <binding>
      <command>nasal</command>
-     <script>doors.doorsystem.crewexport();</script>
+     <script>doors.crew.toggle();</script>
     </binding>
   </key>
 
 </PropertyList>
-
